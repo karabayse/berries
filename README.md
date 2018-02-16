@@ -1,1 +1,1 @@
-### Fixed Navbar 
+### Fixed navbar with parallax effect
