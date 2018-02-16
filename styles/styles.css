@@ -1,12 +1,11 @@
-img {
+/* img {
   height: 100%;
   width: 100%;
   position: relative;
-  /* opacity: 0.70; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 .nav {
   position: fixed;
@@ -29,4 +28,79 @@ li {
 
 a {
   color: #872657;
+  font-size: 20px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.berries2, .berries, .blueberries {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.berries2 {
+  background-image: url("../styles/images/berries2.jpeg");
+  min-height: 100%;
+}
+
+.berries {
+  background-image: url("../styles/images/berries.jpeg");
+  min-height: 100%;
+}
+
+.blueberries {
+  background-image: url("../styles/images/blueberries.jpeg");
+  min-height: 100%;
+}
+
+.strawberry {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.raspberry {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.blueberry {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #FCFCFC;
+  font-size: 50px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+/* .ptext .border {
+  color: #FFF;
+  padding: 20px;
+} */
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+@media(max-width: 568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
 }
