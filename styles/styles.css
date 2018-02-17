@@ -90,10 +90,10 @@ body, html {
   text-transform: uppercase;
 }
 
-/* .ptext .border {
-  color: #FFF;
+.ptext .border {
+  color: #872657;
   padding: 20px;
-} */
+}
 
 .ptext .border.trans {
   background-color: transparent;
