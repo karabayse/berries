@@ -1,3 +1,4 @@
 ![Berries Home View](berries-home.png)
 
-### Fixed navbar with parallax effect
+## Berries
+Basic parallax website with fixed navbar 
