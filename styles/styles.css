@@ -1,12 +1,3 @@
-/* img {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 .nav {
   position: fixed;
   top: 0;
@@ -65,18 +56,30 @@ body, html {
 }
 
 .strawberry {
-  text-align: center;
+  text-align: justify;
   padding: 50px 80px;
+}
+
+#strawberryPerl {
+  text-align: center;
 }
 
 .raspberry {
-  text-align: center;
+  text-align: justify;
   padding: 50px 80px;
 }
 
-.blueberry {
+#raspberryPi {
   text-align: center;
+}
+
+.blueberry {
+  text-align: justify;
   padding: 50px 80px;
+}
+
+#blueberrySoftware {
+  text-align: center;
 }
 
 .ptext {
